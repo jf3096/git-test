@@ -2,6 +2,7 @@ const git = require('simple-git');
 
 git()
     .add('./*')
-    .commit('auto commit')
+    .commit("first commit!")
     .push(['-u', 'origin', 'master'], function () {
+        // done.
     });
